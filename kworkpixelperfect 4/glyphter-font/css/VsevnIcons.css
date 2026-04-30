@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'VsevnIcons';
+    src: url('../fonts/VsevnIcons.eot');
+    src: url('../fonts/VsevnIcons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/VsevnIcons.woff') format('woff'),
+         url('../fonts/VsevnIcons.ttf') format('truetype'),
+         url('../fonts/VsevnIcons.svg#VsevnIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='icon-']:before{
+	display: inline-block;
+   font-family: 'VsevnIcons';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.icon-6yiy7ggqw2amoldi6bq:before{content:'\0041';}
+.icon-lewmlqanzbfmoldmywt:before{content:'\0042';}
+.icon-zuaw2zmcufimoldmkzv:before{content:'\0043';}
+.icon-uxlhld4gkamoldlzxz:before{content:'\0044';}
+.icon-640cahx8dxdmoldlld7:before{content:'\0045';}
+.icon-owrf39vddemoldkso5:before{content:'\0046';}
+.icon-wfhtua8obtkmoldl455:before{content:'\0047';}
+.icon-lqkwptvf9dmoldwm3c:before{content:'\0048';}
