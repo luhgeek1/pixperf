@@ -85,8 +85,7 @@ select {
     column-gap: 29px;
     height: 54.97px;
     margin-left: 35px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
 }
 
 .nav-item {
@@ -416,7 +415,7 @@ select {
     .nav-desktop {
         column-gap: 14px;
         margin-left: 16px;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 
     .content {
