@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vsevn.ru - Импорт</title>
+    <link rel="icon" href="data:,">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+  <link rel="stylesheet" crossorigin href="/pixperf/assets/index-BfusQ2jF.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" aria-label="vsevn.ru">
+            <img src="/pixperf/assets/usevn-D7DktjVu.png" alt="vsevn.ru">
+        </a>
+
+        <nav class="nav-desktop">
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-lewmlqanzbfmoldmywt"></span>
+                <span>ЖУРНАЛ МЕНЕДЖЕРОВ</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-6yiy7ggqw2amoldi6bq"></span>
+                <span>РЕЗЮМЕ</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-owrf39vddemoldkso5"></span>
+                <span>КОМПАНИИ</span>
+            </a>
+
+            <a href="#" class="nav-item active">
+                <span class="nav-icon icon-wfhtua8obtkmoldl455"></span>
+                <span>ИМПОРТ</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-640cahx8dxdmoldlld7"></span>
+                <span>ОБЪЯВЛЕНИЯ</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-uxlhld4gkamoldlzxz"></span>
+                <span>EMAIL ПИСЬМА</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon icon-zuaw2zmcufimoldmkzv"></span>
+                <span>EMAIL НАСТРОЙКИ</span>
+            </a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="main-block" aria-label="Импорт">
+            <div class="panel-body">
+                <h1 class="page-title">Импорт из xml/xlsx/docx</h1>
+
+                <div class="date-row">
+                    <div class="date-field">
+                        <span class="date-label">ДАТА ОТ</span>
+                        <span class="date-value">12.05.2023</span>
+                    </div>
+                    <div class="date-field">
+                        <span class="date-label">ДАТА ДО</span>
+                        <span class="date-value">12.05.2023</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fileType">Укажите тип файла</label>
+                        <select id="fileType">
+                            <option value=""></option>
+                            <option value="xml">xml</option>
+                            <option value="xlsx">xlsx</option>
+                            <option value="docx">docx</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group file-path-group">
+                        <label for="filePath">Укажите путь к файлу</label>
+                        <input type="text" id="filePath">
+                    </div>
+
+                    <button class="paperclip-btn" type="button" aria-label="Прикрепить файл">
+                        <span class="paperclip-icon icon-lqkwptvf9dmoldwm3c"></span>
+                    </button>
+
+                    <button class="import-btn" type="button">Начать Импорт</button>
+                </div>
+            </div>
+
+            <div class="bottom-bar"></div>
+        </section>
+    </main>
+</body>
+</html>
